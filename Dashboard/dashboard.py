@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv('/combined_data_airquality.csv')
+df = pd.read_csv('combined_data_airquality.csv')
 
 # Function to preprocess date data
 def data_date(df):
